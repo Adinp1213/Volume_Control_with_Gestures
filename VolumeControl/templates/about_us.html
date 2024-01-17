@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Smart Volume Control</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            background-color: #004855;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 50px;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #004855; /* Light gray background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.349);
+        }
+
+        .description {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+
+        .image-container {
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .button {
+            display: inline-block;
+            font-size: 24px;
+            padding: 15px 30px;
+            margin: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        #home-btn {
+            background-color: #28a745;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <div class="container">
+        <h1>About Us</h1>
+
+        <div class="description">
+            <p>Welcome to Smart Volume Control, a revolutionary application that allows you to control your system's volume using hand gestures.</p>
+
+            <p>Our application uses computer vision and machine learning technologies to detect hand gestures and adjust the volume accordingly. The system is designed to be intuitive and easy to use, providing a new and interactive way to control your audio settings.</p>
+
+            <p><b>Technologies Used:</b></p>
+            <ul>
+                <li>Python</li>
+                <li>Django Framework</li>
+                <li>OpenCV</li>
+                <li>MediaPipe</li>
+                <li>pycaw</li>
+            </ul>
+        </div>
+    </div>
+
+    <a id="home-btn" class="btn button" href="/">
+        Home Page
+    </a>
+</body>
+</html>
