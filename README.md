@@ -15,3 +15,4 @@ Demo
 
 ![Volume_control_video-Trim](https://github.com/Adinp1213/Volume_Control_with_Gestures/assets/127317650/3d9b9644-709b-42f6-9e76-932b97f70f73)
 
+I have used mediapipe in this project which is very useful for extracting hand landmarks and thus we can configure it according to our requirements.
