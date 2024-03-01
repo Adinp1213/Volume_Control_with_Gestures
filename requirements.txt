@@ -2,3 +2,4 @@ mediapipe
 django
 comtypes
 pymysql
+pycaw
