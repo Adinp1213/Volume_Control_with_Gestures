@@ -13,5 +13,5 @@ python manage.py runserver
 
 Demo
 
-https://github.com/Adinp1213/Volume_Control_with_Gestures/assets/127317650/53fe7c5a-8989-4e0d-82d6-0169522e98e9
+![Volume_control_video-Trim](https://github.com/Adinp1213/Volume_Control_with_Gestures/assets/127317650/3d9b9644-709b-42f6-9e76-932b97f70f73)
 
