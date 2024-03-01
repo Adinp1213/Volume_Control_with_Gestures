@@ -5,7 +5,8 @@ Run this command to install neccessary libraries
 ```
 pip install -r requirements.txt
 ```
-Then 
+Then use this code to start the project.
 ```
 cd VolumeControl
+python manage.py runserver
 ```
