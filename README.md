@@ -5,3 +5,7 @@ Run this command to install neccessary libraries
 ```
 pip install -r requirements.txt
 ```
+Then 
+```
+cd VolumeControl
+```
