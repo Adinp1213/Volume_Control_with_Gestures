@@ -5,3 +5,4 @@ requirements
 mediapipe
 django
 comtypes
+''' pip install -r requirements.txt'''
