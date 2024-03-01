@@ -1,0 +1,4 @@
+mediapipe
+django
+comtypes
+pymysql
